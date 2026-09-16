@@ -2,6 +2,17 @@
 
 原创阵营战术卡牌游戏，使用 React、TypeScript 与 Vite 构建。玩家通过 30 张单位卡构筑战线，在天衡、幽冥、天机、铁律、山海五大阵营间建立节奏与组合技。
 
+## 游戏截图
+
+| | |
+|---|---|
+| ![战斗主界面](docs/screenshots/01-battle-desktop.png) | ![卡组收藏](docs/screenshots/02-collection-desktop.png) |
+| 战斗主界面（30 张卡构筑战线，5 阵营） | 卡组收藏（自动按稀有度分组） |
+| ![仙侠编年史](docs/screenshots/03-chronicle-desktop.png) | ![卡牌稀有度画廊](docs/screenshots/04-rarity-gallery.png) |
+| 仙侠编年史（22 名角色 / 6 个时代） | 稀有度画廊（SSR/UR 视觉） |
+
+> 完整截屏库见 [`docs/screenshots/`](docs/screenshots)；后续 build 出包会把最新的 verification 截图同步上来。
+
 ## 启动
 
 ```bash
