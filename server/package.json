@@ -1,0 +1,15 @@
+{
+  "name": "xianxia-server",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "type": "module",
+  "description": "仙侠战线云端服务（cloud-api / platform / match-engine / social-liveops）",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "esbuild": "^0.28.2",
+    "pg": "^8.22.0"
+  }
+}

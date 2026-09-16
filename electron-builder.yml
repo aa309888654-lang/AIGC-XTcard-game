@@ -1,0 +1,52 @@
+# 星渊战线 · Astra Frontline - electron-builder 配置
+appId: com.astrafrontline.game
+productName: 星渊战线
+copyright: Copyright © 2026 Astra Frontline
+
+# 输出目录
+directories:
+  output: output/exe-build
+  buildResources: electron
+
+# 构建配置
+asar: true
+asarUnpack:
+  - "**/*.{node,dll}"
+
+# 文件打包规则 (只包含运行所需文件)
+files:
+  - electron/main.js
+  - electron/main-logic.jsc
+  - electron/preload.jsc
+  - electron/external-url-policy.cjs
+  - electron/icon.ico
+  - app/**/*
+  - node_modules/bytenode/**/*
+  - package.json
+
+# Windows 配置
+win:
+  icon: electron/icon.ico
+  target: nsis
+
+# NSIS 安装程序配置
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+  installerIcon: electron/icon.ico
+  uninstallerIcon: electron/icon.ico
+  installerHeaderIcon: electron/icon.ico
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: 星渊战线
+  menuCategory: 游戏
+  license: null
+  deleteAppDataOnUninstall: false
+
+# 压缩配置
+compression: maximum
+
+# 不包含的文件 (开发文件)
+extraFiles: []

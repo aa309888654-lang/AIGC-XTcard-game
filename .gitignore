@@ -1,0 +1,40 @@
+node_modules
+dist
+app
+output
+.electron-cache
+tmp
+*.log
+.env
+!.env.example
+server/.env*
+!server/.env.example
+!server/.env.platform.example
+方案/
+*.key
+*.pfx
+keystorePass.txt
+electron/*.jsc
+electron/.*.template.js
+
+# 大体积游戏资源不入库（已有 dist-release tar 与原素材存档兜底）
+public/assets/
+
+# 本地产物与备份
+*.tar
+*.tsbuildinfo
+godot/
+.mimosa/
+.joycode/
+app-test/
+app-test2/
+.zcode/
+修改备份/
+原素材存档/
+
+# AI 内部产物（图像 prompt / 规划会话日志）不入公开仓库
+docs/image-prompts/
+
+# 根目录散落的大文件（将移入原素材存档）
+/*.png
+/首页视频背景.mp4

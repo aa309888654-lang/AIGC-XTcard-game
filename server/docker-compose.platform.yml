@@ -1,0 +1,127 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-xianxia}
+      POSTGRES_USER: ${POSTGRES_USER:-xianxia}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - xianxia-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  cloud-api:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    image: xianxia-services:local
+    restart: unless-stopped
+    working_dir: /app
+    command: ["node", "server/cloud-server.mjs"]
+    environment:
+      CLOUD_PORT: 3210
+      DATABASE_URL: postgres://${POSTGRES_USER:-xianxia}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-xianxia}
+      CLOUD_SIGNING_SECRET: ${CLOUD_SIGNING_SECRET:?set CLOUD_SIGNING_SECRET}
+    ports: ["127.0.0.1:3210:3210"]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3210/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  platform-api:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    image: xianxia-services:local
+    restart: unless-stopped
+    working_dir: /app
+    command: ["node", "server/authoritative-platform.mjs"]
+    environment:
+      PLATFORM_PORT: 3211
+      DATABASE_URL: postgres://${POSTGRES_USER:-xianxia}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-xianxia}
+      CLOUD_SIGNING_SECRET: ${CLOUD_SIGNING_SECRET:?set CLOUD_SIGNING_SECRET}
+      MATCH_ENGINE_BASE: http://match-engine:3212
+    ports: ["127.0.0.1:3211:3211"]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3211/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  match-engine:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    image: xianxia-services:local
+    restart: unless-stopped
+    working_dir: /app
+    command: ["node", "server/authoritative-match-engine.mjs"]
+    environment:
+      MATCH_ENGINE_PORT: 3212
+      DATABASE_URL: postgres://${POSTGRES_USER:-xianxia}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-xianxia}
+      CLOUD_SIGNING_SECRET: ${CLOUD_SIGNING_SECRET:?set CLOUD_SIGNING_SECRET}
+    ports: ["127.0.0.1:3212:3212"]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3212/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  social-liveops:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    image: xianxia-services:local
+    restart: unless-stopped
+    working_dir: /app
+    command: ["node", "server/social-liveops-service.mjs"]
+    environment:
+      SOCIAL_PORT: 3213
+      DATABASE_URL: postgres://${POSTGRES_USER:-xianxia}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-xianxia}
+      CLOUD_SIGNING_SECRET: ${CLOUD_SIGNING_SECRET:?set CLOUD_SIGNING_SECRET}
+      INTERNAL_SERVICE_KEY: ${INTERNAL_SERVICE_KEY:?set INTERNAL_SERVICE_KEY}
+    ports: ["127.0.0.1:3213:3213"]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3213/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # 注意：备份仅存于本机 docker 卷。生产建议把 /backups 同步到异地
+  # （rsync/对象存储/云备份），并定期做恢复演练。
+  backup:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      PGPASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-xianxia}
+      POSTGRES_USER: ${POSTGRES_USER:-xianxia}
+      BACKUP_INTERVAL_SECONDS: ${BACKUP_INTERVAL_SECONDS:-21600}
+    entrypoint: ["/bin/sh", "-c"]
+    command: "while true; do if pg_dump -h postgres -U $$POSTGRES_USER -Fc $$POSTGRES_DB > /backups/xianxia-$$(date +%Y%m%d-%H%M%S).dump; then echo \"backup ok $$(date -Iseconds)\"; else echo \"backup FAILED $$(date -Iseconds)\" >&2; fi; find /backups -type f -name '*.dump' -mtime +14 -delete; sleep $$BACKUP_INTERVAL_SECONDS; done"
+    volumes:
+      - xianxia-backups:/backups
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  xianxia-postgres:
+  xianxia-backups:

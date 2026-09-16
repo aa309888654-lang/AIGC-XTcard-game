@@ -1,0 +1,152 @@
+export const DEFAULT_MINIMAX_MUSIC_MODEL = "music-2.6";
+export const MUSIC_OUTPUT = {
+  sampleRate: 44100,
+  bitrate: 256000,
+  format: "mp3",
+};
+
+export const musicTracks = [
+  {
+    id: "archive",
+    filename: "archive.minimax.mp3",
+    title: "失名档案",
+    prompt: "Original premium sci-fi fantasy game archive instrumental. A seamless 8-bar loop at 70 BPM in E minor: intimate felt piano fragments, soft granular memory textures, low bowed glass, distant metallic chimes, and subtle reversed starlight ambience. Mysterious, intelligent, melancholy but never horror; like reading forbidden testimony in a cosmic library. No vocals, no choir, no melody quoting, no spoken words, no sudden impact, no fade in or fade out. End exactly where the loop can restart naturally.",
+  },
+  {
+    id: "battle",
+    filename: "battle.minimax.mp3",
+    title: "日蚀协议",
+    prompt: "Original premium tactical card game battle instrumental. A seamless 8-bar loop at 126 BPM in C minor: hybrid orchestral percussion, tight taiko-like low drums, muted brass pulses, aggressive synth arpeggios, urgent low strings, and controlled starship engine bass. Intelligent competitive tension, not chaotic; leaves space for combat sound effects and spoken character lines. No vocals, no choir, no melody quoting, no spoken words, no abrupt drop, no fade in or fade out. End exactly where the loop can restart naturally.",
+  },
+  {
+    id: "missions",
+    filename: "missions.minimax.mp3",
+    title: "远征预警",
+    prompt: "Original premium sci-fi fantasy mission briefing instrumental. A seamless 8-bar loop at 106 BPM in G minor: measured low percussion, tense muted strings, distant brass calls, subtle radar pulses, and controlled electronic propulsion. It should feel like preparing a fleet to leave a star gate: purposeful and active, never chaotic or aggressive. AAA tactical card game quality, with room for interface sounds and future voiceover. No vocals, no choir, no spoken words, no melody quoting, no abrupt impacts, no fade in or fade out. End exactly where the loop can restart naturally.",
+  },
+  {
+    id: "shop",
+    filename: "shop.minimax.mp3",
+    title: "星辉交易所",
+    prompt: "Original premium sci-fi fantasy game shop and season-pass instrumental. A seamless 8-bar loop at 90 BPM in A major: luminous celesta accents, warm chamber strings, tasteful synth shimmer, gentle hand percussion, and a refined rising harmony. Bright, aspirational, premium and restrained, like discovering carefully curated artifacts in a starport exchange. Never childish, bombastic, or casino-like. No vocals, no choir, no spoken words, no melody quoting, no sudden impacts, no fade in or fade out. End exactly where the loop can restart naturally.",
+  },
+  {
+    id: "guild",
+    filename: "guild.minimax.mp3",
+    title: "归航甲板",
+    prompt: "Original premium sci-fi fantasy guild and social hub instrumental. A seamless 8-bar loop at 78 BPM in D major: warm Rhodes-like keys, understated acoustic guitar harmonics, soft string pads, distant starship-room ambience, and sparse friendly chimes. A mature feeling of a crew resting together after an expedition: welcoming and human, never sentimental or sleepy. AAA game polish. No vocals, no choir, no spoken words, no melody quoting, no sudden impacts, no fade in or fade out. End exactly where the loop can restart naturally.",
+  },
+  {
+    id: "victory",
+    filename: "victory.minimax.mp3",
+    title: "战线凯旋",
+    prompt: "Original premium sci-fi fantasy tactical game victory stinger. A concise 8 to 12 second instrumental opening: one confident rising brass-and-string motif, a clean celestial chime, disciplined low drum resolution, then a gentle held tail. Earned triumph, noble and controlled, never cartoonish or bombastic. No vocals, no choir, no spoken words, no melody quoting, no abrupt clipping, no fade in.",
+  },
+  {
+    id: "defeat",
+    filename: "defeat.minimax.mp3",
+    title: "核心失守",
+    prompt: "Original premium sci-fi fantasy tactical game defeat stinger. A concise 8 to 12 second instrumental opening: descending low strings, a distant broken synth pulse, restrained brass shadow, and a quiet unresolved final tone. Serious tactical setback, dignified and reflective, never horror or melodrama. No vocals, no choir, no spoken words, no melody quoting, no abrupt clipping, no fade in.",
+  },
+  {
+    id: "battleCritical",
+    filename: "battle-critical.minimax.mp3",
+    title: "核心临界",
+    prompt: "Original premium tactical card game critical-health tension layer, at least 30 seconds long. A seamless 8-bar instrumental loop at 126 BPM in C minor, designed to play quietly on top of an existing battle soundtrack: sub-bass heartbeat, sparse low taiko pulse, filtered synth warning rhythm, and distant metallic tension. No main melody, no brass fanfare, no vocals, no choir, no spoken words, no melody quoting, no sudden impact, no fade in or fade out. Leave ample frequency space for combat sound effects and character voices. End exactly where the loop can restart naturally.",
+  },
+  { id: "lobbySerene", filename: "lobby-serene.minimax.mp3", title: "天门晨光", prompt: "Original premium sci-fi fantasy game lobby backup instrumental, at least 45 seconds. Seamless loop at 76 BPM: luminous guqin-like plucks, warm string pad, soft glass chimes and distant cosmic wind. Calm, ceremonial and hopeful, leaving space for interface sounds. No vocals, choir, speech, melody quoting, impacts, fade in or fade out." },
+  { id: "archiveRitual", filename: "archive-ritual.minimax.mp3", title: "卷宗余烬", prompt: "Original premium archive backup instrumental, at least 45 seconds. Seamless loop at 68 BPM: restrained prepared piano, paper-like percussion, low cello harmonics and faint celestial dust. Scholarly, secretive and elegant, never horror. No vocals, choir, speech, melody quoting, impacts, fade in or fade out." },
+  { id: "battleSkirmish", filename: "battle-skirmish.minimax.mp3", title: "边境遭遇", prompt: "Original premium tactical card game light battle backup, at least 45 seconds. Seamless loop at 118 BPM: controlled taiko pulse, short string ostinato, muted brass and precise electronic arpeggios. Focused skirmish energy with room for combat SFX and voices. No vocals, choir, speech, melody quoting, fade in or fade out." },
+  { id: "battleSiege", filename: "battle-siege.minimax.mp3", title: "星门攻防", prompt: "Original premium tactical card game high-stakes battle backup, at least 45 seconds. Seamless loop at 132 BPM: deep drums, low brass pressure, urgent strings and restrained industrial synth bass. Disciplined siege tension, not chaotic. No vocals, choir, speech, melody quoting, fade in or fade out." },
+  { id: "missionDawn", filename: "mission-dawn.minimax.mp3", title: "远征启程", prompt: "Original premium mission-selection backup instrumental, at least 45 seconds. Seamless loop at 96 BPM: forward piano rhythm, warm French horn fragments, subtle synth pulse and open-string lift. Purposeful departure and discovery, mature and restrained. No vocals, choir, speech, melody quoting, fade in or fade out." },
+  { id: "shopNight", filename: "shop-night.minimax.mp3", title: "夜市星辉", prompt: "Original premium game shop backup instrumental, at least 45 seconds. Seamless loop at 88 BPM: refined celesta, soft hand percussion, silk-like strings and tasteful neon synth shimmer. Sophisticated artifact market, never casino-like or childish. No vocals, choir, speech, melody quoting, fade in or fade out." },
+  { id: "guildHearth", filename: "guild-hearth.minimax.mp3", title: "归航灯火", prompt: "Original premium guild hub backup instrumental, at least 45 seconds. Seamless loop at 74 BPM: gentle Rhodes, acoustic harmonics, low string warmth and distant room ambience. Trusted companions resting after an expedition, mature and human. No vocals, choir, speech, melody quoting, fade in or fade out." },
+  { id: "victoryQuiet", filename: "victory-quiet.minimax.mp3", title: "微光凯旋", prompt: "Original premium tactical game quiet victory backup stinger, at least 15 seconds. A restrained ascending string and celesta motif, gentle brass resolution and a clean held tail. Earned relief, never bombastic. No vocals, choir, speech, melody quoting, abrupt clipping or fade in." },
+  { id: "defeatAftermath", filename: "defeat-aftermath.minimax.mp3", title: "余烬之后", prompt: "Original premium tactical game defeat aftermath backup stinger, at least 15 seconds. Soft descending piano, low strings, a distant broken synth pulse and dignified unresolved tail. Reflective, not horror or melodrama. No vocals, choir, speech, melody quoting, abrupt clipping or fade in." },
+  { id: "starDrift", filename: "star-drift.minimax.mp3", title: "星海漂航", prompt: "Original premium sci-fi fantasy travel and loading backup instrumental, at least 45 seconds. Seamless loop at 72 BPM: airy pads, slow celestial bells, sparse bowed glass and gentle engine-like bass. Vast, contemplative and elegant. No vocals, choir, speech, melody quoting, impacts, fade in or fade out." },
+];
+
+export const externalMusicTracks = [
+  {
+    id: "lobby",
+    filename: "builder.open.mp3",
+    title: "The Fall of Arcana",
+    creator: "Matthew Pablo",
+    provider: "OpenGameArt",
+    license: "CC-BY-3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    sourceUrl: "https://opengameart.org/content/the-fall-of-arcana-epic-game-theme-music",
+  },
+  {
+    id: "builder",
+    filename: "builder.open.mp3",
+    title: "The Fall of Arcana",
+    creator: "Matthew Pablo",
+    provider: "OpenGameArt",
+    license: "CC-BY-3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    sourceUrl: "https://opengameart.org/content/the-fall-of-arcana-epic-game-theme-music",
+  },
+  {
+    id: "lobbyNewEra",
+    filename: "lobby-new-era.open.mp3",
+    title: "The Fall of Arcana (New Era Version)",
+    creator: "Matthew Pablo",
+    provider: "OpenGameArt",
+    license: "CC-BY-3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    sourceUrl: "https://opengameart.org/content/the-fall-of-arcana-new-era-version",
+  },
+  {
+    id: "battleHeroicDemise",
+    filename: "battle-heroic-demise.open.mp3",
+    title: "Heroic Demise [Updated Version]",
+    creator: "Matthew Pablo",
+    provider: "OpenGameArt",
+    license: "CC-BY-3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    sourceUrl: "https://opengameart.org/content/heroic-demise-updated-version",
+  },
+];
+
+export function buildMusicJobs() {
+  return musicTracks.map((track) => ({ ...track, outputPath: `/assets/audio/music/${track.filename}` }));
+}
+
+export function buildExternalMusicTracks() {
+  return externalMusicTracks.map((track) => ({ ...track, outputPath: `/assets/audio/music/${track.filename}` }));
+}
+
+export function buildMusicVariants() {
+  return {
+    lobby: [
+      "/assets/audio/music/builder.open.mp3",
+      "/assets/audio/music/lobby-new-era.open.mp3",
+      "/assets/audio/music/lobby-serene.minimax.mp3",
+      "/assets/audio/music/star-drift.minimax.mp3",
+    ],
+    builder: [
+      "/assets/audio/music/builder.open.mp3",
+      "/assets/audio/music/lobby-new-era.open.mp3",
+      "/assets/audio/music/archive-ritual.minimax.mp3",
+    ],
+    battle: [
+      "/assets/audio/music/battle.minimax.mp3",
+      "/assets/audio/music/battle-heroic-demise.open.mp3",
+      "/assets/audio/music/battle-skirmish.minimax.mp3",
+      "/assets/audio/music/battle-siege.minimax.mp3",
+    ],
+    practice: ["/assets/audio/music/battle.minimax.mp3", "/assets/audio/music/battle-skirmish.minimax.mp3"],
+    archive: ["/assets/audio/music/archive.minimax.mp3", "/assets/audio/music/archive-ritual.minimax.mp3"],
+    missions: ["/assets/audio/music/missions.minimax.mp3", "/assets/audio/music/mission-dawn.minimax.mp3"],
+    shop: ["/assets/audio/music/shop.minimax.mp3", "/assets/audio/music/shop-night.minimax.mp3"],
+    guild: ["/assets/audio/music/guild.minimax.mp3", "/assets/audio/music/guild-hearth.minimax.mp3"],
+  };
+}
+
+export function buildMusicCueVariants() {
+  return {
+    victory: ["/assets/audio/music/victory.minimax.mp3", "/assets/audio/music/victory-quiet.minimax.mp3"],
+    defeat: ["/assets/audio/music/defeat.minimax.mp3", "/assets/audio/music/defeat-aftermath.minimax.mp3"],
+  };
+}

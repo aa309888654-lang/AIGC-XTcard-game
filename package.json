@@ -1,0 +1,72 @@
+{
+  "name": "xianxia-frontline",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22 <25",
+    "npm": ">=10 <12"
+  },
+  "type": "module",
+  "main": "electron/main.js",
+  "description": "原创阵营战术卡牌游戏",
+  "scripts": {
+    "dev": "vite",
+    "cloud:dev": "node server/cloud-server.mjs",
+    "cloud:db": "docker compose -f server/docker-compose.yml up -d",
+    "platform:dev": "node server/authoritative-platform.mjs",
+    "match:dev": "node server/authoritative-match-engine.mjs",
+    "social:dev": "node server/social-liveops-service.mjs",
+    "online:up": "docker compose --env-file server/.env.platform.example -f server/docker-compose.platform.yml up -d",
+    "pvp-integration": "node scripts/pvp-integration-test.mjs",
+    "build": "tsc -b && vite build --config vite.config.ts",
+    "build:electron": "tsc -b && vite build --mode electron --config vite.config.ts",
+    "preview": "vite preview",
+    "smoke": "node scripts/engine-smoke.mjs",
+    "balance-sim": "node scripts/balance-sim.mjs",
+    "test": "vitest run",
+    "lore-smoke": "node scripts/lore-smoke.mjs",
+    "audio-smoke": "node scripts/audio-smoke.mjs",
+    "audio-generate": "node scripts/generate-procedural-audio.mjs",
+    "assets:navigation": "node scripts/generate-agnes-navigation-icons.mjs",
+    "music-plan": "node scripts/generate-minimax-music.mjs --dry-run",
+    "music-generate": "node scripts/generate-minimax-music.mjs",
+    "music-smoke": "node scripts/music-smoke.mjs",
+    "voice-plan": "node scripts/generate-stepaudio-voices.mjs --dry-run",
+    "voice-generate": "node scripts/generate-stepaudio-voices.mjs",
+    "voice-smoke": "node scripts/voice-smoke.mjs",
+    "vfx-smoke": "node scripts/vfx-smoke.mjs",
+    "visual-audit": "node scripts/full-visual-audit.mjs",
+    "presentation-smoke": "node scripts/presentation-smoke.mjs",
+    "deploy-probe": "node scripts/deploy-probe.mjs",
+    "secret-scan": "node scripts/secret-scan.mjs",
+    "verify": "npm run build && npm run test && npm run deploy-probe && npm run secret-scan && npm run smoke && npm run vfx-smoke && npm run presentation-smoke && npm run lore-smoke && npm run audio-smoke && npm run music-smoke && npm run voice-smoke",
+    "electron:dev": "npm run build:electron && node scripts/sync-electron-app.mjs && node scripts/compile-bytecode.mjs && electron electron/main.js",
+    "electron:build": "node scripts/build-exe.mjs"
+  },
+  "build": {
+    "extends": "./electron-builder.yml"
+  },
+  "dependencies": {
+    "@pixi/filter-advanced-bloom": "^5.1.1",
+    "@pixi/particle-emitter": "^5.0.10",
+    "pixi.js": "^7.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "bytenode": "^1.6.0",
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3",
+    "ffmpeg-static": "^5.3.0",
+    "playwright": "^1.62.1",
+    "sharp": "^0.35.3",
+    "typescript": "^5.6.3",
+    "vite": "^7.3.6",
+    "vite-plugin-compression2": "^2.5.3",
+    "vitest": "^4.1.10",
+    "wawoff2": "^2.0.1"
+  }
+}

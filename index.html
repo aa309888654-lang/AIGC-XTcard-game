@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="64x64" href="%BASE_URL%assets/brand/favicon-64.png" />
+    <link rel="preload" href="%BASE_URL%assets/fonts/ZCOOLXiaoWei-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <title>仙侠战线 · Xianxia Frontline</title>
+    <style>
+      #boot-screen { position:fixed; inset:0; z-index:9999; display:grid; place-items:center; overflow:hidden; color:#ebd8aa; background:#05080c url('%BASE_URL%assets/backgrounds/startup-background.png') center / cover no-repeat; font-family:Georgia,'Songti SC',serif; }
+      #boot-screen::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse at center,rgba(4,8,12,.08),rgba(3,6,9,.82)); }
+      #boot-screen span { position:relative; padding:11px 15px; border-top:1px solid rgba(221,182,100,.62); border-bottom:1px solid rgba(221,182,100,.62); font-size:11px; letter-spacing:2px; }
+    </style>
+  </head>
+  <body>
+    <div id="boot-screen" aria-label="仙侠战线正在启动"><span>仙侠战线 · 星门校准中</span></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
