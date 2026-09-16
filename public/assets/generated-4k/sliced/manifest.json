@@ -1,0 +1,2148 @@
+{
+  "non-card/cutouts/status-effects-expansion-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 3
+    },
+    "cells": 12,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 161,
+        "y": 125,
+        "w": 300,
+        "h": 427,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 586,
+        "y": 100,
+        "w": 420,
+        "h": 475,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1077,
+        "y": 110,
+        "w": 411,
+        "h": 463,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1562,
+        "y": 112,
+        "w": 410,
+        "h": 465,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 117,
+        "y": 787,
+        "w": 373,
+        "h": 470,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 615,
+        "y": 786,
+        "w": 357,
+        "h": 470,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1089,
+        "y": 787,
+        "w": 380,
+        "h": 471,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1568,
+        "y": 787,
+        "w": 395,
+        "h": 471,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/07.png"
+      },
+      {
+        "index": 8,
+        "gx": 0,
+        "gy": 2,
+        "x": 87,
+        "y": 1458,
+        "w": 425,
+        "h": 441,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/08.png"
+      },
+      {
+        "index": 9,
+        "gx": 1,
+        "gy": 2,
+        "x": 512,
+        "y": 1459,
+        "w": 489,
+        "h": 441,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/09.png"
+      },
+      {
+        "index": 10,
+        "gx": 2,
+        "gy": 2,
+        "x": 1057,
+        "y": 1474,
+        "w": 428,
+        "h": 435,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/10.png"
+      },
+      {
+        "index": 11,
+        "gx": 3,
+        "gy": 2,
+        "x": 1580,
+        "y": 1484,
+        "w": 382,
+        "h": 413,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_status-effects-expansion-atlas-agnes-image-2-1-flash-cutout/11.png"
+      }
+    ]
+  },
+  "non-card/cutouts/summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 3,
+      "gridH": 3
+    },
+    "cells": 9,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 67,
+        "y": 53,
+        "w": 614,
+        "h": 580,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 682,
+        "y": 26,
+        "w": 656,
+        "h": 644,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1373,
+        "y": 13,
+        "w": 582,
+        "h": 665,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 0,
+        "gy": 1,
+        "x": 101,
+        "y": 713,
+        "w": 524,
+        "h": 633,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 1,
+        "gy": 1,
+        "x": 682,
+        "y": 707,
+        "w": 669,
+        "h": 655,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 2,
+        "gy": 1,
+        "x": 1366,
+        "y": 705,
+        "w": 653,
+        "h": 649,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 0,
+        "gy": 2,
+        "x": 122,
+        "y": 1402,
+        "w": 557,
+        "h": 561,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 1,
+        "gy": 2,
+        "x": 724,
+        "y": 1393,
+        "w": 575,
+        "h": 603,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/07.png"
+      },
+      {
+        "index": 8,
+        "gx": 2,
+        "gy": 2,
+        "x": 1428,
+        "y": 1397,
+        "w": 500,
+        "h": 534,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_summons-and-temporaries-exact-atlas-agnes-image-2-1-flash-cutout/08.png"
+      }
+    ]
+  },
+  "non-card/cutouts/skill-effects-exact-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 3
+    },
+    "cells": 12,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 122,
+        "y": 144,
+        "w": 390,
+        "h": 538,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 512,
+        "y": 116,
+        "w": 510,
+        "h": 542,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1050,
+        "y": 121,
+        "w": 486,
+        "h": 561,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1536,
+        "y": 93,
+        "w": 426,
+        "h": 589,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 106,
+        "y": 682,
+        "w": 406,
+        "h": 683,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 512,
+        "y": 747,
+        "w": 512,
+        "h": 618,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1024,
+        "y": 682,
+        "w": 512,
+        "h": 601,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1536,
+        "y": 682,
+        "w": 395,
+        "h": 683,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/07.png"
+      },
+      {
+        "index": 8,
+        "gx": 0,
+        "gy": 2,
+        "x": 82,
+        "y": 1365,
+        "w": 430,
+        "h": 559,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/08.png"
+      },
+      {
+        "index": 9,
+        "gx": 1,
+        "gy": 2,
+        "x": 512,
+        "y": 1365,
+        "w": 512,
+        "h": 650,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/09.png"
+      },
+      {
+        "index": 10,
+        "gx": 2,
+        "gy": 2,
+        "x": 1024,
+        "y": 1421,
+        "w": 512,
+        "h": 601,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/10.png"
+      },
+      {
+        "index": 11,
+        "gx": 3,
+        "gy": 2,
+        "x": 1536,
+        "y": 1365,
+        "w": 473,
+        "h": 629,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_skill-effects-exact-atlas-agnes-image-2-1-flash-cutout/11.png"
+      }
+    ]
+  },
+  "faction-cardback-atlas-agnes-image-2-1-flash.png": {
+    "grid": {
+      "gridW": 5,
+      "gridH": 1
+    },
+    "cells": 5,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 0,
+        "y": 0,
+        "w": 819,
+        "h": 4096,
+        "file": "/assets/generated-4k/sliced/faction-cardback-atlas-agnes-image-2-1-flash/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 819,
+        "y": 0,
+        "w": 819,
+        "h": 4096,
+        "file": "/assets/generated-4k/sliced/faction-cardback-atlas-agnes-image-2-1-flash/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1638,
+        "y": 0,
+        "w": 819,
+        "h": 4096,
+        "file": "/assets/generated-4k/sliced/faction-cardback-atlas-agnes-image-2-1-flash/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 2457,
+        "y": 0,
+        "w": 819,
+        "h": 4096,
+        "file": "/assets/generated-4k/sliced/faction-cardback-atlas-agnes-image-2-1-flash/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 4,
+        "gy": 0,
+        "x": 3276,
+        "y": 0,
+        "w": 820,
+        "h": 4096,
+        "file": "/assets/generated-4k/sliced/faction-cardback-atlas-agnes-image-2-1-flash/04.png"
+      }
+    ]
+  },
+  "battle-ui-panel-states-atlas-agnes-image-2-1-flash.png": {
+    "grid": {
+      "gridW": 2,
+      "gridH": 2
+    },
+    "cells": 4,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 0,
+        "y": 0,
+        "w": 2048,
+        "h": 2048,
+        "file": "/assets/generated-4k/sliced/battle-ui-panel-states-atlas-agnes-image-2-1-flash/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 2048,
+        "y": 0,
+        "w": 2048,
+        "h": 2048,
+        "file": "/assets/generated-4k/sliced/battle-ui-panel-states-atlas-agnes-image-2-1-flash/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 0,
+        "gy": 1,
+        "x": 0,
+        "y": 2048,
+        "w": 2048,
+        "h": 2048,
+        "file": "/assets/generated-4k/sliced/battle-ui-panel-states-atlas-agnes-image-2-1-flash/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 1,
+        "gy": 1,
+        "x": 2048,
+        "y": 2048,
+        "w": 2048,
+        "h": 2048,
+        "file": "/assets/generated-4k/sliced/battle-ui-panel-states-atlas-agnes-image-2-1-flash/03.png"
+      }
+    ]
+  },
+  "non-card/ui-panel-materials-exact-atlas-agnes-image-2-1-flash.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 2
+    },
+    "cells": 8,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_ui-panel-materials-exact-atlas-agnes-image-2-1-flash/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_ui-panel-materials-exact-atlas-agnes-image-2-1-flash/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_ui-panel-materials-exact-atlas-agnes-image-2-1-flash/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_ui-panel-materials-exact-atlas-agnes-image-2-1-flash/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 0,
+        "y": 1024,
+        "w": 512,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_ui-panel-materials-exact-atlas-agnes-image-2-1-flash/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 512,
+        "y": 1024,
+        "w": 512,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_ui-panel-materials-exact-atlas-agnes-image-2-1-flash/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1024,
+        "y": 1024,
+        "w": 512,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_ui-panel-materials-exact-atlas-agnes-image-2-1-flash/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1536,
+        "y": 1024,
+        "w": 512,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_ui-panel-materials-exact-atlas-agnes-image-2-1-flash/07.png"
+      }
+    ]
+  },
+  "non-card/cutouts/shop-product-pedestals-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 3,
+      "gridH": 2
+    },
+    "cells": 6,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 93,
+        "y": 137,
+        "w": 556,
+        "h": 887,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_shop-product-pedestals-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 762,
+        "y": 140,
+        "w": 546,
+        "h": 884,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_shop-product-pedestals-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1428,
+        "y": 85,
+        "w": 524,
+        "h": 939,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_shop-product-pedestals-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 0,
+        "gy": 1,
+        "x": 0,
+        "y": 1024,
+        "w": 676,
+        "h": 1024,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_shop-product-pedestals-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 1,
+        "gy": 1,
+        "x": 780,
+        "y": 1024,
+        "w": 510,
+        "h": 882,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_shop-product-pedestals-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 2,
+        "gy": 1,
+        "x": 1451,
+        "y": 1024,
+        "w": 489,
+        "h": 915,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_shop-product-pedestals-atlas-agnes-image-2-1-flash-cutout/05.png"
+      }
+    ]
+  },
+  "non-card/cutouts/social-and-liveops-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 2
+    },
+    "cells": 8,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 136,
+        "y": 123,
+        "w": 354,
+        "h": 852,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_social-and-liveops-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 522,
+        "y": 144,
+        "w": 451,
+        "h": 827,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_social-and-liveops-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1079,
+        "y": 143,
+        "w": 457,
+        "h": 847,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_social-and-liveops-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1536,
+        "y": 143,
+        "w": 382,
+        "h": 834,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_social-and-liveops-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 135,
+        "y": 1080,
+        "w": 373,
+        "h": 833,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_social-and-liveops-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 525,
+        "y": 1083,
+        "w": 433,
+        "h": 823,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_social-and-liveops-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1107,
+        "y": 1083,
+        "w": 429,
+        "h": 839,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_social-and-liveops-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1536,
+        "y": 1080,
+        "w": 363,
+        "h": 843,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_social-and-liveops-atlas-agnes-image-2-1-flash-cutout/07.png"
+      }
+    ]
+  },
+  "non-card/cutouts/battlefield-widgets-exact-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 3,
+      "gridH": 2
+    },
+    "cells": 6,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 99,
+        "y": 531,
+        "w": 775,
+        "h": 205,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_battlefield-widgets-exact-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 874,
+        "y": 555,
+        "w": 875,
+        "h": 181,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_battlefield-widgets-exact-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1749,
+        "y": 136,
+        "w": 817,
+        "h": 600,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_battlefield-widgets-exact-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 0,
+        "gy": 1,
+        "x": 98,
+        "y": 736,
+        "w": 776,
+        "h": 186,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_battlefield-widgets-exact-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 1,
+        "gy": 1,
+        "x": 874,
+        "y": 736,
+        "w": 875,
+        "h": 191,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_battlefield-widgets-exact-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 2,
+        "gy": 1,
+        "x": 1749,
+        "y": 736,
+        "w": 812,
+        "h": 181,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_battlefield-widgets-exact-atlas-agnes-image-2-1-flash-cutout/05.png"
+      }
+    ]
+  },
+  "cutouts/faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 5,
+      "gridH": 2
+    },
+    "cells": 10,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 88,
+        "y": 97,
+        "w": 436,
+        "h": 639,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 524,
+        "y": 86,
+        "w": 525,
+        "h": 650,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1049,
+        "y": 82,
+        "w": 525,
+        "h": 654,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1574,
+        "y": 83,
+        "w": 525,
+        "h": 653,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 4,
+        "gy": 0,
+        "x": 2099,
+        "y": 82,
+        "w": 525,
+        "h": 654,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 0,
+        "gy": 1,
+        "x": 90,
+        "y": 736,
+        "w": 434,
+        "h": 632,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 1,
+        "gy": 1,
+        "x": 524,
+        "y": 736,
+        "w": 510,
+        "h": 634,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 2,
+        "gy": 1,
+        "x": 1216,
+        "y": 736,
+        "w": 319,
+        "h": 630,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/07.png"
+      },
+      {
+        "index": 8,
+        "gx": 3,
+        "gy": 1,
+        "x": 1712,
+        "y": 736,
+        "w": 326,
+        "h": 627,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/08.png"
+      },
+      {
+        "index": 9,
+        "gx": 4,
+        "gy": 1,
+        "x": 2202,
+        "y": 736,
+        "w": 347,
+        "h": 632,
+        "file": "/assets/generated-4k/sliced/cutouts_faction-emblems-and-sideflags-atlas-agnes-image-2-1-flash-cutout/09.png"
+      }
+    ]
+  },
+  "non-card/cutouts/ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 2
+    },
+    "cells": 8,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 56,
+        "y": 180,
+        "w": 600,
+        "h": 556,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 656,
+        "y": 182,
+        "w": 656,
+        "h": 554,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1312,
+        "y": 181,
+        "w": 656,
+        "h": 555,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1968,
+        "y": 182,
+        "w": 656,
+        "h": 554,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 21,
+        "y": 736,
+        "w": 635,
+        "h": 545,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 656,
+        "y": 736,
+        "w": 656,
+        "h": 546,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1312,
+        "y": 736,
+        "w": 656,
+        "h": 543,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1968,
+        "y": 736,
+        "w": 656,
+        "h": 548,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_ssr-ur-skill-vfx-atlas-agnes-image-2-1-flash-cutout/07.png"
+      }
+    ]
+  },
+  "non-card/cutouts/elite-summon-derivatives-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 3,
+      "gridH": 2
+    },
+    "cells": 6,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 58,
+        "y": 77,
+        "w": 607,
+        "h": 947,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_elite-summon-derivatives-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 818,
+        "y": 82,
+        "w": 412,
+        "h": 942,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_elite-summon-derivatives-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1423,
+        "y": 136,
+        "w": 545,
+        "h": 888,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_elite-summon-derivatives-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 0,
+        "gy": 1,
+        "x": 88,
+        "y": 1024,
+        "w": 543,
+        "h": 927,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_elite-summon-derivatives-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 1,
+        "gy": 1,
+        "x": 816,
+        "y": 1024,
+        "w": 414,
+        "h": 900,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_elite-summon-derivatives-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 2,
+        "gy": 1,
+        "x": 1428,
+        "y": 1024,
+        "w": 530,
+        "h": 929,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_elite-summon-derivatives-atlas-agnes-image-2-1-flash-cutout/05.png"
+      }
+    ]
+  },
+  "non-card/cutouts/navigation-icons-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 6,
+      "gridH": 1
+    },
+    "cells": 6,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 115,
+        "y": 125,
+        "w": 226,
+        "h": 1791,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_navigation-icons-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 341,
+        "y": 128,
+        "w": 341,
+        "h": 1758,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_navigation-icons-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 682,
+        "y": 125,
+        "w": 276,
+        "h": 1796,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_navigation-icons-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1053,
+        "y": 147,
+        "w": 312,
+        "h": 1770,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_navigation-icons-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 4,
+        "gy": 0,
+        "x": 1365,
+        "y": 146,
+        "w": 341,
+        "h": 1766,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_navigation-icons-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 5,
+        "gy": 0,
+        "x": 1706,
+        "y": 113,
+        "w": 302,
+        "h": 1813,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_navigation-icons-atlas-agnes-image-2-1-flash-cutout/05.png"
+      }
+    ]
+  },
+  "non-card/cutouts/system-action-icons-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 2
+    },
+    "cells": 8,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 158,
+        "y": 113,
+        "w": 354,
+        "h": 889,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_system-action-icons-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 512,
+        "y": 87,
+        "w": 512,
+        "h": 909,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_system-action-icons-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1024,
+        "y": 87,
+        "w": 512,
+        "h": 910,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_system-action-icons-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1536,
+        "y": 90,
+        "w": 362,
+        "h": 903,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_system-action-icons-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 162,
+        "y": 1054,
+        "w": 350,
+        "h": 909,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_system-action-icons-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 512,
+        "y": 1058,
+        "w": 512,
+        "h": 903,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_system-action-icons-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1024,
+        "y": 1057,
+        "w": 512,
+        "h": 905,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_system-action-icons-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1536,
+        "y": 1053,
+        "w": 357,
+        "h": 905,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_system-action-icons-atlas-agnes-image-2-1-flash-cutout/07.png"
+      }
+    ]
+  },
+  "non-card/cutouts/faction-emblem-state-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 5,
+      "gridH": 6
+    },
+    "cells": 30,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 67,
+        "y": 45,
+        "w": 289,
+        "h": 296,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 476,
+        "y": 54,
+        "w": 286,
+        "h": 287,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 880,
+        "y": 61,
+        "w": 325,
+        "h": 280,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1282,
+        "y": 46,
+        "w": 303,
+        "h": 295,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 4,
+        "gy": 0,
+        "x": 1695,
+        "y": 46,
+        "w": 302,
+        "h": 295,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 0,
+        "gy": 1,
+        "x": 88,
+        "y": 341,
+        "w": 267,
+        "h": 325,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 1,
+        "gy": 1,
+        "x": 477,
+        "y": 341,
+        "w": 285,
+        "h": 328,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 2,
+        "gy": 1,
+        "x": 880,
+        "y": 341,
+        "w": 285,
+        "h": 323,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/07.png"
+      },
+      {
+        "index": 8,
+        "gx": 3,
+        "gy": 1,
+        "x": 1284,
+        "y": 341,
+        "w": 299,
+        "h": 331,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/08.png"
+      },
+      {
+        "index": 9,
+        "gx": 4,
+        "gy": 1,
+        "x": 1688,
+        "y": 341,
+        "w": 310,
+        "h": 335,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/09.png"
+      },
+      {
+        "index": 10,
+        "gx": 0,
+        "gy": 2,
+        "x": 88,
+        "y": 698,
+        "w": 315,
+        "h": 326,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/10.png"
+      },
+      {
+        "index": 11,
+        "gx": 1,
+        "gy": 2,
+        "x": 476,
+        "y": 692,
+        "w": 307,
+        "h": 332,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/11.png"
+      },
+      {
+        "index": 12,
+        "gx": 2,
+        "gy": 2,
+        "x": 880,
+        "y": 697,
+        "w": 284,
+        "h": 327,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/12.png"
+      },
+      {
+        "index": 13,
+        "gx": 3,
+        "gy": 2,
+        "x": 1281,
+        "y": 684,
+        "w": 305,
+        "h": 340,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/13.png"
+      },
+      {
+        "index": 14,
+        "gx": 4,
+        "gy": 2,
+        "x": 1697,
+        "y": 685,
+        "w": 299,
+        "h": 339,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/14.png"
+      },
+      {
+        "index": 15,
+        "gx": 0,
+        "gy": 3,
+        "x": 88,
+        "y": 1024,
+        "w": 267,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/15.png"
+      },
+      {
+        "index": 16,
+        "gx": 1,
+        "gy": 3,
+        "x": 477,
+        "y": 1024,
+        "w": 284,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/16.png"
+      },
+      {
+        "index": 17,
+        "gx": 2,
+        "gy": 3,
+        "x": 881,
+        "y": 1024,
+        "w": 282,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/17.png"
+      },
+      {
+        "index": 18,
+        "gx": 3,
+        "gy": 3,
+        "x": 1283,
+        "y": 1024,
+        "w": 303,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/18.png"
+      },
+      {
+        "index": 19,
+        "gx": 4,
+        "gy": 3,
+        "x": 1662,
+        "y": 1024,
+        "w": 355,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/19.png"
+      },
+      {
+        "index": 20,
+        "gx": 0,
+        "gy": 4,
+        "x": 89,
+        "y": 1365,
+        "w": 274,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/20.png"
+      },
+      {
+        "index": 21,
+        "gx": 1,
+        "gy": 4,
+        "x": 479,
+        "y": 1365,
+        "w": 281,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/21.png"
+      },
+      {
+        "index": 22,
+        "gx": 2,
+        "gy": 4,
+        "x": 882,
+        "y": 1365,
+        "w": 282,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/22.png"
+      },
+      {
+        "index": 23,
+        "gx": 3,
+        "gy": 4,
+        "x": 1284,
+        "y": 1365,
+        "w": 301,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/23.png"
+      },
+      {
+        "index": 24,
+        "gx": 4,
+        "gy": 4,
+        "x": 1695,
+        "y": 1365,
+        "w": 301,
+        "h": 341,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/24.png"
+      },
+      {
+        "index": 25,
+        "gx": 0,
+        "gy": 5,
+        "x": 42,
+        "y": 1706,
+        "w": 361,
+        "h": 290,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/25.png"
+      },
+      {
+        "index": 26,
+        "gx": 1,
+        "gy": 5,
+        "x": 437,
+        "y": 1706,
+        "w": 324,
+        "h": 292,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/26.png"
+      },
+      {
+        "index": 27,
+        "gx": 2,
+        "gy": 5,
+        "x": 873,
+        "y": 1706,
+        "w": 297,
+        "h": 299,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/27.png"
+      },
+      {
+        "index": 28,
+        "gx": 3,
+        "gy": 5,
+        "x": 1284,
+        "y": 1706,
+        "w": 301,
+        "h": 299,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/28.png"
+      },
+      {
+        "index": 29,
+        "gx": 4,
+        "gy": 5,
+        "x": 1696,
+        "y": 1706,
+        "w": 300,
+        "h": 297,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_faction-emblem-state-atlas-agnes-image-2-1-flash-cutout/29.png"
+      }
+    ]
+  },
+  "non-card/cutouts/items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 2
+    },
+    "cells": 8,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 119,
+        "y": 155,
+        "w": 393,
+        "h": 844,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 512,
+        "y": 144,
+        "w": 469,
+        "h": 855,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1094,
+        "y": 120,
+        "w": 373,
+        "h": 868,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1557,
+        "y": 120,
+        "w": 376,
+        "h": 875,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 137,
+        "y": 1080,
+        "w": 375,
+        "h": 824,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 512,
+        "y": 1066,
+        "w": 472,
+        "h": 830,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1125,
+        "y": 1080,
+        "w": 411,
+        "h": 827,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1536,
+        "y": 1083,
+        "w": 377,
+        "h": 820,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_items-and-rewards-exact-atlas-agnes-image-2-1-flash-cutout/07.png"
+      }
+    ]
+  },
+  "non-card/cutouts/inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 2
+    },
+    "cells": 8,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 151,
+        "y": 129,
+        "w": 361,
+        "h": 855,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 512,
+        "y": 92,
+        "w": 484,
+        "h": 892,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1068,
+        "y": 130,
+        "w": 468,
+        "h": 859,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1536,
+        "y": 129,
+        "w": 438,
+        "h": 878,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 149,
+        "y": 1052,
+        "w": 363,
+        "h": 881,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 512,
+        "y": 1068,
+        "w": 490,
+        "h": 865,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1077,
+        "y": 1068,
+        "w": 459,
+        "h": 870,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1536,
+        "y": 1068,
+        "w": 406,
+        "h": 873,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_inventory-cosmetic-icons-atlas-agnes-image-2-1-flash-cutout/07.png"
+      }
+    ]
+  },
+  "cutouts/deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 3
+    },
+    "cells": 12,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 149,
+        "y": 57,
+        "w": 363,
+        "h": 594,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 512,
+        "y": 112,
+        "w": 512,
+        "h": 539,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1024,
+        "y": 114,
+        "w": 512,
+        "h": 556,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1536,
+        "y": 130,
+        "w": 392,
+        "h": 505,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 149,
+        "y": 759,
+        "w": 363,
+        "h": 534,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 512,
+        "y": 729,
+        "w": 512,
+        "h": 633,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1024,
+        "y": 743,
+        "w": 512,
+        "h": 612,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1536,
+        "y": 747,
+        "w": 437,
+        "h": 559,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/07.png"
+      },
+      {
+        "index": 8,
+        "gx": 0,
+        "gy": 2,
+        "x": 150,
+        "y": 1400,
+        "w": 362,
+        "h": 562,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/08.png"
+      },
+      {
+        "index": 9,
+        "gx": 1,
+        "gy": 2,
+        "x": 512,
+        "y": 1391,
+        "w": 512,
+        "h": 544,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/09.png"
+      },
+      {
+        "index": 10,
+        "gx": 2,
+        "gy": 2,
+        "x": 1024,
+        "y": 1391,
+        "w": 512,
+        "h": 545,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/10.png"
+      },
+      {
+        "index": 11,
+        "gx": 3,
+        "gy": 2,
+        "x": 1536,
+        "y": 1395,
+        "w": 427,
+        "h": 532,
+        "file": "/assets/generated-4k/sliced/cutouts_deck-graveyard-and-targeting-atlas-agnes-image-2-1-flash-cutout/11.png"
+      }
+    ]
+  },
+  "non-card/cutouts/combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 4
+    },
+    "cells": 16,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 18,
+        "y": 124,
+        "w": 464,
+        "h": 354,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 607,
+        "y": 110,
+        "w": 359,
+        "h": 360,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1106,
+        "y": 121,
+        "w": 345,
+        "h": 349,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1602,
+        "y": 113,
+        "w": 324,
+        "h": 393,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 50,
+        "y": 521,
+        "w": 440,
+        "h": 430,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 582,
+        "y": 599,
+        "w": 388,
+        "h": 347,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1101,
+        "y": 529,
+        "w": 350,
+        "h": 414,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1567,
+        "y": 613,
+        "w": 369,
+        "h": 339,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/07.png"
+      },
+      {
+        "index": 8,
+        "gx": 0,
+        "gy": 2,
+        "x": 27,
+        "y": 1097,
+        "w": 439,
+        "h": 437,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/08.png"
+      },
+      {
+        "index": 9,
+        "gx": 1,
+        "gy": 2,
+        "x": 555,
+        "y": 1056,
+        "w": 403,
+        "h": 441,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/09.png"
+      },
+      {
+        "index": 10,
+        "gx": 2,
+        "gy": 2,
+        "x": 1095,
+        "y": 1108,
+        "w": 369,
+        "h": 398,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/10.png"
+      },
+      {
+        "index": 11,
+        "gx": 3,
+        "gy": 2,
+        "x": 1571,
+        "y": 1077,
+        "w": 374,
+        "h": 430,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/11.png"
+      },
+      {
+        "index": 12,
+        "gx": 0,
+        "gy": 3,
+        "x": 158,
+        "y": 1594,
+        "w": 274,
+        "h": 355,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/12.png"
+      },
+      {
+        "index": 13,
+        "gx": 1,
+        "gy": 3,
+        "x": 611,
+        "y": 1561,
+        "w": 361,
+        "h": 373,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/13.png"
+      },
+      {
+        "index": 14,
+        "gx": 2,
+        "gy": 3,
+        "x": 1120,
+        "y": 1566,
+        "w": 321,
+        "h": 345,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/14.png"
+      },
+      {
+        "index": 15,
+        "gx": 3,
+        "gy": 3,
+        "x": 1563,
+        "y": 1544,
+        "w": 388,
+        "h": 405,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_combat-ui-icons-exact-atlas-agnes-image-2-1-flash-cutout/15.png"
+      }
+    ]
+  },
+  "non-card/cutouts/resources-exact-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 2
+    },
+    "cells": 8,
+    "slices": [
+      {
+        "index": 0,
+        "gx": 0,
+        "gy": 0,
+        "x": 102,
+        "y": 106,
+        "w": 410,
+        "h": 790,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_resources-exact-atlas-agnes-image-2-1-flash-cutout/00.png"
+      },
+      {
+        "index": 1,
+        "gx": 1,
+        "gy": 0,
+        "x": 512,
+        "y": 489,
+        "w": 475,
+        "h": 422,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_resources-exact-atlas-agnes-image-2-1-flash-cutout/01.png"
+      },
+      {
+        "index": 2,
+        "gx": 2,
+        "gy": 0,
+        "x": 1082,
+        "y": 525,
+        "w": 361,
+        "h": 394,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_resources-exact-atlas-agnes-image-2-1-flash-cutout/02.png"
+      },
+      {
+        "index": 3,
+        "gx": 3,
+        "gy": 0,
+        "x": 1552,
+        "y": 325,
+        "w": 327,
+        "h": 573,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_resources-exact-atlas-agnes-image-2-1-flash-cutout/03.png"
+      },
+      {
+        "index": 4,
+        "gx": 0,
+        "gy": 1,
+        "x": 162,
+        "y": 1123,
+        "w": 350,
+        "h": 354,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_resources-exact-atlas-agnes-image-2-1-flash-cutout/04.png"
+      },
+      {
+        "index": 5,
+        "gx": 1,
+        "gy": 1,
+        "x": 512,
+        "y": 1101,
+        "w": 460,
+        "h": 354,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_resources-exact-atlas-agnes-image-2-1-flash-cutout/05.png"
+      },
+      {
+        "index": 6,
+        "gx": 2,
+        "gy": 1,
+        "x": 1104,
+        "y": 1129,
+        "w": 432,
+        "h": 328,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_resources-exact-atlas-agnes-image-2-1-flash-cutout/06.png"
+      },
+      {
+        "index": 7,
+        "gx": 3,
+        "gy": 1,
+        "x": 1536,
+        "y": 1096,
+        "w": 369,
+        "h": 381,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_resources-exact-atlas-agnes-image-2-1-flash-cutout/07.png"
+      }
+    ]
+  },
+  "cutouts/card-interaction-effects-atlas-agnes-image-2-1-flash-cutout.png": {
+    "grid": {
+      "gridW": 4,
+      "gridH": 2,
+      "cellW": 512,
+      "cellH": 1024
+    },
+    "slices": [
+      {
+        "gx": 0,
+        "gy": 0,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_card-interaction-effects-atlas-agnes-image-2-1-flash-cutout/00.png",
+        "w": 477,
+        "h": 959
+      },
+      {
+        "gx": 1,
+        "gy": 0,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_card-interaction-effects-atlas-agnes-image-2-1-flash-cutout/01.png",
+        "w": 495,
+        "h": 973
+      },
+      {
+        "gx": 2,
+        "gy": 0,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_card-interaction-effects-atlas-agnes-image-2-1-flash-cutout/02.png",
+        "w": 509,
+        "h": 950
+      },
+      {
+        "gx": 3,
+        "gy": 0,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_card-interaction-effects-atlas-agnes-image-2-1-flash-cutout/03.png",
+        "w": 481,
+        "h": 974
+      },
+      {
+        "gx": 0,
+        "gy": 1,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_card-interaction-effects-atlas-agnes-image-2-1-flash-cutout/04.png",
+        "w": 438,
+        "h": 781
+      },
+      {
+        "gx": 1,
+        "gy": 1,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_card-interaction-effects-atlas-agnes-image-2-1-flash-cutout/05.png",
+        "w": 482,
+        "h": 897
+      },
+      {
+        "gx": 2,
+        "gy": 1,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_card-interaction-effects-atlas-agnes-image-2-1-flash-cutout/06.png",
+        "w": 478,
+        "h": 821
+      },
+      {
+        "gx": 3,
+        "gy": 1,
+        "file": "/assets/generated-4k/sliced/non-card_cutouts_card-interaction-effects-atlas-agnes-image-2-1-flash-cutout/07.png",
+        "w": 466,
+        "h": 819
+      }
+    ]
+  }
+}
