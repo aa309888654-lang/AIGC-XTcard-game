@@ -56,3 +56,15 @@ npm run verify
 
 - 个人使用本作品所产生的同人产品（视频、同人小说、UGC 模组、播客等）默认允许，**无须告知**。
 - 商业活动授权（赛事、广播、衍生商品等）请提前至少 14 天向 `aa309888654@gmail.com` 提交计划书。
+
+## 4K 高清位图资源（独立 Release）
+
+`public/assets/generated-4k/cutouts/`、`non-card/` 与顶级 atlas PNG 共 297.57 MB / 114 文件，由于 GitHub receive-pack 后台 housekeeping 在主分支上对 ~176 MB 大 pack 多次 stall 5+ 分钟无法 finalize ref update，因此改以独立 GitHub Release 发布，避免阻塞主分支 commit 链。
+
+| Resource | Release | Asset | Size | SHA-256 |
+|---|---|---|---|---|
+| generated-4k atlas | [v1.0.0-4k-atlas](https://github.com/aa309888654-lang/AIGC-XTcard-game/releases/tag/v1.0.0-4k-atlas) | [xianxia_frontline_4k_atlas.zip](https://github.com/aa309888654-lang/AIGC-XTcard-game/releases/download/v1.0.0-4k-atlas/xianxia_frontline_4k_atlas.zip) | 297.57 MB | `4639d413…664624c` |
+
+下载后请将 zip 内容解压到本仓库的 `public/assets/generated-4k/` 下，与代码一同发布。
+
+如果 GitHub 后台 housekeeping 恢复，你可以发起一个 PR 把这部分也 merge 到 master；后续版本（v1.0.1+）的 4K atlas 会同步在仓库与 Release 上发布。
