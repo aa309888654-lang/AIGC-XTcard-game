@@ -38,3 +38,21 @@ npm run verify
 
 - 可商用开源 SFX 候选来源、许可证门槛、首批导入清单和运行时接入步骤见 [docs/OPEN_SOURCE_SFX_INTEGRATION.md](docs/OPEN_SOURCE_SFX_INTEGRATION.md)。
 - 新素材仅允许 `CC0`、已记录署名要求的 `CC BY` 或经人工审核的明确商业授权；`CC BY-NC`、授权不明的 GitHub 仓库和 Discord 附件不得直接进入发行包。
+
+## 开源协议
+
+本项目在 [PolyForm Small Business License 1.0.0](https://polyformproject.org/licenses/small-business/1.0.0) 下发布，详见根目录 [LICENSE](LICENSE) 与 [docs/LICENSE_zh.md](docs/LICENSE_zh.md)。
+
+- **个人 / 微型机构 / 个人开发者**：可免费用于学习、修改、个人作品、个人作品二次发布、商业活动（包括开直播、出自出版物、销售周边、做训练营项目）；
+- **企业使用**：当单位年营收 ≥ 100 万美元（按 BLS CPI-U 已对 2019 基准做通胀调整）或在职员工 + 独立承包人合计 ≥ 100 人时，需要单独签订书面商业授权。请发邮件到 `aa309888654@gmail.com` 走活动授权流程；
+
+协议其他要点：
+
+- 修改、衍生作品仍须沿用本协议并保留 `Required Notice`；
+- 不得对专利发起攻击性主张，否则随许可同时终止；
+- 软件按原样提供，不附带任何担保。
+
+## 授权合作
+
+- 个人使用本作品所产生的同人产品（视频、同人小说、UGC 模组、播客等）默认允许，**无须告知**。
+- 商业活动授权（赛事、广播、衍生商品等）请提前至少 14 天向 `aa309888654@gmail.com` 提交计划书。
