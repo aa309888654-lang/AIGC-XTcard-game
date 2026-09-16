@@ -17,8 +17,8 @@ keystorePass.txt
 electron/*.jsc
 electron/.*.template.js
 
-# 大体积游戏资源不入库（已有 dist-release tar 与原素材存档兜底）
-public/assets/
+# 运行时引用的素材库（音频/音乐/特效/图片）现在公开随代码发布
+# public/assets/
 
 # 本地产物与备份
 *.tar
